@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Myntra Automation Suite">
+  <test thread-count="5" name="Search Product Test">
+  
+   <classes>
+
+            <class name="myntraTests.SearchProductTest"/>
+            <class name="myntraTests.CartPriceValidationTest"/>
+
+        </classes>
+  
+  </test> <!-- Search Product Test -->
+</suite> <!-- Myntra Automation Suite -->
